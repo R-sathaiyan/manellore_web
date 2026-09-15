@@ -26,4 +26,11 @@ input:focus,select:focus,textarea:focus { outline:none; box-shadow:0 0 0 3px rgb
 [class~="text-[#8B5CF6]"] { color:#D8B4E2 !important; }
 [class~="text-[#FF8A3D]"] { color:#F5C49A !important; }
 [class~="text-[#287BFF]"] { color:#E8A6B8 !important; }
+
+@media (max-width:639px) {
+	h1,h2,h3,p { overflow-wrap:anywhere; }
+	h2 { line-height:1.08; }
+	button { max-width:100%; }
+	.grid-fade { background-size:34px 34px; }
+}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
