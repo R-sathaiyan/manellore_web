@@ -1,0 +1,1 @@
+This directory contains all reusable interactive UI sections: navigation, hero ecosystem, service hub, workflow, leadership, contact form, and footer. Components consume typed content from data/ and shared helpers from lib/.

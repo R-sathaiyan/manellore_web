@@ -1,0 +1,1 @@
+This root contains the Manellore Groups Next.js App Router project configuration, dependency manifest, and project-wide context. Application UI lives in components/, route files in app/, structured content in data/, and reusable utilities in lib/.

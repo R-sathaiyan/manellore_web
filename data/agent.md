@@ -1,0 +1,1 @@
+This directory is the content layer for services, workflow steps, values, and leadership metadata. It exports typed static data consumed by presentation components and intentionally contains no UI logic.

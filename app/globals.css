@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+:root { --bg:#080B12; --surface:#0F141D; --card:#151B26; --border:#26303D; --text:#F5F7FA; --muted:#9AA4B2; --blue:#287BFF; --cyan:#19D3FF; --purple:#8B5CF6; --orange:#FF8A3D; }
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; background:var(--bg); }
+body { margin:0; background:var(--bg); color:var(--text); font-family:'Manrope',system-ui,sans-serif; overflow-x:hidden; }
+::selection { background:rgba(40,123,255,.35); color:white; }
+button,input,select,textarea { font:inherit; }
+.gradient-text { background:linear-gradient(135deg,var(--blue),var(--purple),var(--orange)); -webkit-background-clip:text; background-clip:text; color:transparent; }
+.gradient-border { position:relative; }
+.gradient-border::before { content:""; position:absolute; inset:0; padding:1px; border-radius:inherit; background:linear-gradient(135deg,rgba(40,123,255,.55),rgba(139,92,246,.2),rgba(255,138,61,.45)); -webkit-mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0); -webkit-mask-composite:xor; mask-composite:exclude; pointer-events:none; }
+.grid-fade { background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px); background-size:52px 52px; mask-image:linear-gradient(to bottom,black,transparent 82%); }
+.noise { background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 160 160' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.025'/%3E%3C/svg%3E"); }
+.glass { background:rgba(8,11,18,.72); backdrop-filter:blur(18px); -webkit-backdrop-filter:blur(18px); border-bottom:1px solid rgba(38,48,61,.75); }
+input:focus,select:focus,textarea:focus { outline:none; box-shadow:0 0 0 3px rgba(40,123,255,.15),0 0 28px rgba(40,123,255,.08); }
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}

@@ -1,0 +1,1 @@
+This route validates the contact payload shape at the server boundary and returns a safe acknowledgement for the frontend form. It currently acts as the integration seam for a CRM/email provider rather than persisting submissions itself.
