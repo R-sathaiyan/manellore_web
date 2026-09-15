@@ -6,9 +6,9 @@ export const pillars = [
   { label:"Future-ready", detail:"Systems designed to grow with your next chapter." },
 ];
 export const services = [
-  { id:"software", number:"01", title:"Software Solutions", short:"Digital products, platforms and automation that make work simpler.", bullets:["Web & business applications","Workflow automation","Cloud-connected systems","Data dashboards & integrations"], accent:"#287BFF" },
-  { id:"hardware", number:"02", title:"Hardware Solutions", short:"Reliable technology infrastructure that supports people and operations.", bullets:["Device & infrastructure planning","Networking & deployment","Hardware procurement guidance","Setup, maintenance & support"], accent:"#19D3FF" },
-  { id:"allrounder", number:"03", title:"All-Rounder Solutions", short:"A connected technology partner from first conversation to ongoing support.", bullets:["Software + hardware planning","Implementation coordination","Troubleshooting & support","Technology roadmap guidance"], accent:"#8B5CF6" },
+  { id:"software", number:"01", title:"Software Solutions", short:"Digital products, platforms and automation that make work simpler.", bullets:["Web & business applications","Workflow automation","Cloud-connected systems","Data dashboards & integrations"], accent:"#E8A6B8" },
+  { id:"hardware", number:"02", title:"Hardware Solutions", short:"Reliable technology infrastructure that supports people and operations.", bullets:["Device & infrastructure planning","Networking & deployment","Hardware procurement guidance","Setup, maintenance & support"], accent:"#B9E3D3" },
+  { id:"allrounder", number:"03", title:"All-Rounder Solutions", short:"A connected technology partner from first conversation to ongoing support.", bullets:["Software + hardware planning","Implementation coordination","Troubleshooting & support","Technology roadmap guidance"], accent:"#D8B4E2" },
 ];
 export const workflow = [
   { id:"understand", number:"01", title:"Understand", copy:"We listen first. Goals, constraints, users and the real problem become the brief.", signal:"DISCOVER", detail:["Clarify the business outcome","Map current workflows","Identify constraints and opportunities"] },
@@ -23,7 +23,5 @@ export const reasons = [
   ["04","Long-term thinking","Today’s solution should leave room for tomorrow’s users, data and ambitions."],
 ];
 export const team = [
-  { name:"Kusuma Keerthi Manellore", role:"Founder", initials:"KK", note:"[CLIENT TO CONFIRM]" },
-  { name:"Harish Raj Balraj R", role:"Co-Founder", initials:"HR", note:"[CLIENT TO CONFIRM]" },
-  { name:"Aravindan P B", role:"Co-Founder", initials:"AP", note:"[CLIENT TO CONFIRM]" },
+  { name:"Manellore Kusuma Keerthi", role:"Founder", initials:"MK", email:"kusumakeerthi2006@gmail.com" },
 ];
