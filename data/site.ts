@@ -1,4 +1,4 @@
-export const navItems = ["Home", "About", "Services", "Process", "Why Us", "Team", "Contact"];
+export const navItems = ["Home", "About", "Services", "Process", "Why Us", "Contact"];
 export const pillars = [
   { label:"Practical", detail:"Solutions shaped around real business constraints." },
   { label:"Cost-effective", detail:"Thoughtful engineering without unnecessary overhead." },

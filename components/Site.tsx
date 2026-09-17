@@ -20,12 +20,8 @@ export function Site() {
         <Trust />
         <About />
         <Services />
-        <OnePartner />
         <Process />
         <WhyUs />
-        <Story />
-        <Team />
-        <Vision />
         <Contact />
       </main>
       <Footer />
