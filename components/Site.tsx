@@ -302,10 +302,6 @@ function Footer() {
           <span>Technology · Practicality · Momentum</span>
         </div>
 
-        <div className="mt-3 border-t border-[#26303D]/80 pt-4 text-center text-[11px] text-[#8A93A3]">
-          <span className="mr-2 font-semibold uppercase tracking-[0.18em] text-[#9AA4B2]">Developer Info</span>
-          <span>Sathaiyan • sathaiyan150@gmail.com • 8438885033</span>
-        </div>
       </div>
     </footer>
   );
