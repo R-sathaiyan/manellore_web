@@ -1,21 +1,20 @@
-# Manellore Groups
+# Manellore Groups — Corporate & Startup Web Platform
 
-A dark-mode-first, interactive Next.js App Router marketing site for Manellore Groups.
+A high-performance, responsive web application engineered for Manellore Groups, delivering practical software, hardware, and end-to-end technology solutions.
 
-## Stack
-- Next.js + TypeScript + App Router
-- Tailwind CSS v4
-- Framer Motion
-- Lucide React
-- React Hook Form + Zod
+## 🛠️ Tech Stack & Architecture
 
-## Run
-```bash
-npm install
-npm run dev
-```
+- **Framework:** Next.js (App Router, Server & Client Components)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS v4
+- **Animation & Motion:** Framer Motion (viewport triggers, layout animations, custom interactive reels)
+- **Forms & Validation:** React Hook Form & Zod
+- **Icons:** Lucide React
 
-## Notes
-The leadership portraits are represented by initials until approved client photography is supplied. Social buttons are UI placeholders until official profile URLs are confirmed. The contact API validates requests and is intentionally an integration seam; connect it to email/CRM storage before production launch.
+## 📂 Project Structure & Optimization (`agent.md` Strategy)
+This repository utilizes a modular component architecture. Every core directory includes an `agent.md` context file to maintain low token overhead and clear module documentation for AI-assisted workflows:
 
-Each project directory includes a compact `agent.md` context map as requested.
+- `app/` — Next.js App Router pages and global layouts
+- `components/` — Modular UI blocks (Hero, Services, InteractiveReel, ContactForm, etc.)
+- `data/` — Data-driven service arrays and team matrices
+- `lib/` — Utility functions and shared helpers
