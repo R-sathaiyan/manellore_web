@@ -295,7 +295,12 @@ function Footer() {
 
         <div className="mt-14 flex flex-col justify-between gap-3 border-t border-[#26303D] pt-6 text-xs text-[#697585] sm:flex-row">
           <span>© 2026 Manellore Groups. All rights reserved.</span>
-          <span>Technology · Practicality · Momentum</span>
+          <span>
+            Developed by{" "}
+            <a className="font-semibold text-[#9AA4B2] transition hover:text-white" href={`mailto:${team[0].email}`}>
+              {team[0].name}
+            </a>
+          </span>
         </div>
 
       </div>
